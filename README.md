@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/bhargavasatyamani/bhargavasatyamani.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.<br/>
-<a src='https://appliedaicourse.com'></a>
+<a src='https://appliedaicourse.com'>Applied AI</a>
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
