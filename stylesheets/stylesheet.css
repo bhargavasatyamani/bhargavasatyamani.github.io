@@ -2,29 +2,28 @@ body{
     margin: 0;
     padding: 0;
 }
-.my-image{
-    border-radius: 50%;
-}
-.header{
+.header-div{
+    background-image: url('../img/wp3205280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
     width:100%;
-    height:auto;
-
+    height:350px;
 }
-.header-left-div{
-    position: relative;
-    padding: 1%;
-    float:left;
-}
-.vertical-center{
+h1{
     margin: 0;
-    position: absolute;
-    top: 40%;
-    left:25%;
-    color: chocolate;
+    color: white;
 }
-.header-right-div{
-    position: relative;
-    padding: 1%;
-    background-color: aqua;
-    float:right;
+.grayscale {
+    background: url('../img/header_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    width:100%;
+    height:350px;
+    -moz-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -o-filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+    -webkit-filter: grayscale(100%);
+    filter: gray;
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
 }
